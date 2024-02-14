@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.primary-header{
+    background-image: url(https://images.prismic.io/qrates-prd/00bc2c69-9625-4bd3-a662-b9451150fe05_top_section_image_1.png?auto=compress,format&rect=0,14,613,766&w=1200&h=1500);
+}

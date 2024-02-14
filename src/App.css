@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --font-size-xl: 2rem;
+    --font-size-xm: .5rem;
+    --font-size-lg: 1rem;
+    --font-size-xxl: 3 rem;
+}
