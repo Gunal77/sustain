@@ -14,10 +14,12 @@ function Footer() {
                     <h1  data-name="Newsletter" id="uppercase-after" className="pt-3 text-2xl font-bold">Subscribe to news flash</h1>
                     <p className="pt-3 ml-[32%] max-w-[35%] text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quos fugiat consequatur libero aliquid alias.
                     </p>
-                    <form className="pt-5 pb-10 text-white">
-                      <input type="email" value="Enter your email" />
-                      <button className="btn form-btn" type="submit">
+                    <form className="pt-5 pb-10 text-black">
+                      <input type="email" value={"enter your email"} placeholder="Enter your email" />
+                      <button className="btn form-btn border-white " type="submit">
+                        <div className="text-white  border-[2px] border-white ">
                       <MdEmail />
+                      </div>
                       </button>
                     </form>
                 </div>
